@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>LCM Here</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta http-equiv='x-ua-compatible' content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/lcm.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--加载动画-->
+<div class="preloader">
+    <div class="status">&nbsp;</div>
+</div>
+<!--导航栏-->
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header responsive-logo">
+            <div class="navbar-brand">
+                <img src="image/logo.png" alt="Zerif">
+            </div>
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+                    data-target="#bs-navbar-collapse">
+                <span class="sr-only">切换</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <nav class="navbar-collapse collapse" id="bs-navbar-collapse" style="height: 1px;">
+            <ul class="nav navbar-nav navbar-right responsive-nav main-nav-list">
+                <li class="current"><a href="#home">主页</a></li>
+                <li class=""><a href="#focus">特点</a></li>
+                <li class=""><a href="#works">资讯</a></li>
+                <li class=""><a href="#about">概述</a></li>
+                <li><a href="#team">开发者</a></li>
+                <li><a href="#pricingtable">下载</a></li>
+                <li><a href="#features">加入我们</a></li>
+                <li><a href="#products">主题</a></li>
+                <li class=""><a href="#testimonials">评价</a></li>
+                <li class=""><a href="#contact">留言</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!--首页-->
+<header id="home">
+    <div class="container">
+        <!-- 标题 -->
+        <h1 class="intro">发现课外精彩  拓宽人生半径 <br>绿圈校园</h1>
+
+        <!-- 两个按钮 -->
+        <div class="buttons">
+            <a href="#pricingtable" class="btn btn-primary custom-button red-btn">APP下载</a>
+            <a href="#works" class="btn btn-primary custom-button green-btn">社团资讯</a>
+        </div>
+
+        <!-- 3个短消息 -->
+        <div class="row bottom-message">
+            <div class="col-lg-4 col-sm-4">
+                <div class="short-text">
+                    <i class="icon-tasks"></i> 新生入校必备神器
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <div class="short-text">
+                    <i class="icon-clock-o"></i>每日校园新闻分享平台
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+                <div class="short-text">
+                    <i class="icon-check"></i>社团大型活动提前知
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--特点-->
+<section class="focus" id="focus">
+    <div class="container">
+
+        <!-- 页头部分-->
+        <div class="section-header">
+            <!-- 页头-->
+            <h2>特点</h2>
+            <!-- 描述 -->
+            <h6>相对于其他类型的交流平台，绿圈校园一直保持着自己的风格.</h6>
+        </div>
+
+        <!-- 4个具体的模块 -->
+        <div class="row">
+            <!-- 模块一 -->
+            <div class=" col-lg-3 col-sm-3 red ">
+                <div class="service-icon">
+                    <i class="pixeden "></i> <!-- 图标-->
+                </div>
+                <h5 class="border-bottom">功能强大</h5> <!-- 标题 -->
+                <p> <!-- 详情 -->
+                    对社团组织来说，集于发布活动、管理活动、展示社团、发布社团任务、管理社团成员为一体的社团管理功能，让社团管理者减轻社团管理的压力
+                </p>
+            </div>
+
+            <!--模块一结束  其他三个模块类似 -->
+            <div class="col-lg-3 col-sm-3 green">
+                <div class="service-icon">
+                    <span class="pixeden "></span>
+                </div>
+                <h5 class="border-bottom">简单易用</h5>
+                <p>
+                    社团管理员账号登录会展现管理功能，无需任何功底，无需掌握任何技术，都可以轻松应对社团的团里,做到了全面省心管理，让校园身边事不再错过
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 blue">
+                <div class="service-icon">
+                    <i class="pixeden "></i>
+                </div>
+                <h5 class="border-bottom">灵活轻巧</h5>
+                <p>
+                    绿圈校园APP软件仅10M左右，采用市面主流框架volley，兼容各种安卓设备，易读，易用.
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-sm-3 yellow">
+                <div class="service-icon">
+                    <i class="pixeden"></i>
+                </div>
+                <h5 class="border-bottom">数据精准</h5>
+                <p>
+                    量化社团及个人客观数据，分析数据测评社团和学生，可视化全面查看社团运作情况、活动举办情况、同学参与情况
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--过渡层-->
+<div class="color-overlay">
+    <h3 class="text">如果您从未使用过绿圈校园APP，您可能会遇到一些问题，我们建议您阅读手册. </h3>
+    <div>
+        <a href="#" class="btn btn-primary custom-button green-btn" target="_blank">阅读手册</a>
+    </div>
+</div>
+<!--资讯-->
+<section class="works" id="works">
+    <div class="container">
+        <!-- 页头部分 -->
+        <div class="section-header">
+            <!-- 页头 -->
+            <h2>社团资讯</h2>
+            <!-- 描述 -->
+            <h6>这里是社团最新的资讯信息.</h6>
+        </div>
+
+        <div class="row">
+            <div id="loader">
+                <div class="loader-icon"></div>
+            </div>
+            <div class="col-md-12">
+                <ul>
+                    <li>
+                        <a href="#"><img src="image/uploads/thumb_9.jpg">
+                            <div class="project-info">
+                                <div class="project-details green">
+                                    <h5 class="border-bottom">
+                                        第32届秋季校园运动会开幕啦</h5>
+                                    <div>
+                                        2016-11-23
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="more"><img
+                                src="image/uploads/thumb_8.jpg">
+                            <div class="project-info green">
+                                <div class="project-details">
+                                    <h5 class="border-bottom">
+                                        一次就好,我陪你去看天荒地老 </h5>
+                                    <div>
+                                        2016-09-19
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="more"><img
+                                src="image/uploads/thumb_7.jpg" alt="一年之计在于春 一日之计在于晨">
+                            <div class="project-info">
+                                <div class="project-details green">
+                                    <h5 class="border-bottom">
+                                        一年之计在于春 一日之计在于晨 </h5>
+                                    <div>
+                                        2016-09-19
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="more"><img
+                                src="image/uploads/thumb_6.jpg" alt="如果我带你回我北方的家">
+                            <div class="project-info green">
+                                <div class="project-details">
+                                    <h5 class="border-bottom">
+                                        常回家看看</h5>
+                                    <div>
+                                        2016-09-19
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="more"><img
+                                src="image/uploads/thumb_5.jpg" alt="配置mysql5.5主从复制数据库集群 master/slave ">
+                            <div class="project-info green">
+                                <div class="project-details">
+                                    <h5 class="border-bottom">
+                                       不忘初心</h5>
+                                    <div>
+                                        2016-09-19
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="more"><img
+                                src="image/uploads/thumb_4.jpg" alt="我们来说说所谓的H+后台主题模板">
+                            <div class="project-info">
+                                <div class="project-details green">
+                                    <h5 class="border-bottom">
+                                        来说说最新的前端技术吧</h5>
+                                    <div>
+                                        2016-09-19
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="more"><img
+                                src="image/uploads/thumb_3.jpg" alt="代码重要还是薪水重要？">
+                            <div class="project-info">
+                                <div class="project-details green">
+                                    <h5 class="border-bottom">
+                                        苦逼的程序猿</h5>
+                                    <div>
+                                        2016-09-19
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="more"><img
+                                src="image/uploads/thumb_2.jpg" alt="要嫁就嫁程序猿—钱多话少死的早">
+                            <div class="project-info">
+                                <div class="project-details green">
+                                    <h5 class="border-bottom">
+                                        代码改变世界</h5>
+                                    <div>
+                                        2016-09-19
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 详情信息-->
+        <div id="loaded-content"></div>
+        <a id="back-button" href="#"><i class="glyphicon glyphicon-arrow-left"></i> Go Back</a>
+    </div>
+    <a  class="btn btn-primary custom-button green-btn">查看更多</a>
+</section>
+<!--概述-->
+<section class="about" id="about">
+    <div class="container">
+        <!-- 页头-->
+        <div class="section-header">
+            <!-- 标题 -->
+            <h2>概述</h2>
+            <!-- 描述 -->
+            <h6>这里介绍了绿圈校园整个项目的因果.</h6>
+        </div>
+        <!-- 2个模块-->
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <p class="text-justify">
+                    绿圈校园是我们大学生的聚集地，我希望每个人都有一个心灵栖息的地方，从工作到感情，心中那份小而美一直存在。<br>
+                    1.绿圈校园官网网址：<a href="#">绿圈校园</a> 作者：onlystar <br>
+                    2.感谢您选择绿圈校园，希望我们的努力能为您提供一个简单、强大的交流平台。<br>
+                    3.如果您对绿圈校园有BUG提交或者功能建议 可以发送邮件到作者邮箱991923257@qq.com或者在官网留言<br>
+                    4.我们希望您在使用过程中可以加入绿圈校园讨论群分享使用经验<br>
+                    5.我们希望与大家把绿圈校园变得更好<br>
+                    6.用户须知：本协议是您与顶想公司之间关于您使用绿圈校园产品及服务的法律协议。无论您是个人或组织、盈利与否、用途如何（包括以学习和研究为目的），均需仔细阅读本协议，包括免除或者限制顶想责任的免责条款及对您的权利限制。请您审阅并接受或不接受本服务条款。如您不同意本服务条款及/或顶想随时对其的修改，您应不使用或主动取消绿圈校园。否则，您的任何对绿圈校园的相关服务的注册、登陆、下载、查看等使用行为将被视为您对本服务条款全部的完全接受，包括接受顶想对服务条款随时所做的任何修改。<br>
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <ul>
+                    <!-- 功能1 -->
+                    <li class="skill clearfix">
+                        <canvas width="100" height="100" id="c1"></canvas>
+                        <div class="content">
+                            <h6>成熟</h6>
+                            <p>绿圈校园还只是一个孩子，不成熟的地方还有很多，需要大家一起来帮忙调教.</p>
+                        </div>
+                    </li>
+
+                    <!-- 功能2 -->
+                    <li class="skill clearfix">
+                        <canvas width="100" height="100" id="c2"></canvas>
+                        <div class="content">
+                            <h6>灵活</h6>
+                            <p>绿圈校园所有的可视化全可由后台进行修改，主题可一键进行切换，想变随时变.</p>
+                        </div>
+                    </li>
+
+                    <!-- 功能3 -->
+                    <li class="skill clearfix">
+                        <canvas width="100" height="100" id="c3"></canvas>
+                        <div class="content">
+                            <h6>稳定</h6>
+                            <p>绿圈校园拥有高度的稳定性，别看广告看疗效.</p>
+                        </div>
+                    </li>
+
+                    <!-- 功能4 -->
+                    <li class="skill clearfix">
+                        <canvas width="100" height="100" id="c4"></canvas>
+                        <div class="content">
+                            <h6>安全</h6>
+                            <p>封杀所有注入点 关闭DEBUG 不会有报错情况出现 所以也就不会有注入点 所有错误请自行到日志进行查看.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--过渡层-->
+<section class="stats">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <div class="stat">
+                    <div class="icon-top" style="color:#e96656">
+                        <i class="icon-pencil"></i>
+                    </div>
+                    <div class="red">
+                        <h3 class="border-bottom">1,236</h3>
+                        <h6>完成的项目</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="stat">
+                    <div class="icon-top" style="color:#34d293">
+                        <i class="icon-user"></i>
+                    </div>
+                    <div class="green">
+                        <h3 class="border-bottom">196</h3>
+                        <h6>热情的客户</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="stat">
+                    <div class="icon-top" style="color:#3ab0e2">
+                        <i class="icon-envelope"></i>
+                    </div>
+                    <div class="blue">
+                        <h3 class="border-bottom">56,236</h3>
+                        <h6>咨询的邮件</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="stat">
+                    <div class="icon-top" style="color:#f7d861;">
+                        <i class="icon-picture"></i>
+                    </div>
+                    <div class="yellow">
+                        <h3 class="border-bottom">2,519</h3>
+                        <h6>拍摄的照片</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--特别感谢-->
+<section class="team" id="team">
+    <div class="container">
+        <!-- 页头 -->
+        <div class="section-header">
+            <!-- 标题 -->
+            <h2>特别感谢</h2>
+            <!-- 描述 -->
+            <h6>以下是对绿圈校园平台有过帮助的人</h6>
+        </div>
+
+        <!-- 团队成员 -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <div class="headPic">
+                    <img src="image/uploads/5807c8fd2f8fd.jpg" class="img-circle img-responsive">
+                </div>
+                <div class="red">
+                    <h5 class="border-bottom">onlystar</h5>
+                    <p style="margin-top: 15px">web前端工程师</p>
+                </div>
+                <div class="social-icons">
+                    <ul>
+                        <li contact-data="QQ:991923257" class="xhb" contact-title="联系方式"><i class="icon-qq"></i>
+                        </li>
+                        <li contact-data="微信:Wisemen007" class="xhb" contact-title="联系方式"><i class="icon-wechat"></i></li>
+                        <li contact-data="微博:岁月静好" class="xhb" contact-title="联系方式"><i class="icon-weibo"></i>
+                        </li>
+                        <li contact-data="电话:13593756154" class="xhb" contact-title="联系方式"><i
+                                class="icon-phone"></i></li>
+                    </ul>
+                </div>
+                <div class="details">
+                    <p>他默默无闻，一直奋战在第一线，他勇往直前，无所畏惧。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--下载-->
+<section class="packages" id="pricingtable">
+    <div class="container">
+        <!-- 页头 -->
+        <div class="section-header" style="color:#fff;">
+            <!-- 标题 -->
+            <h2>下载</h2>
+            <!--描述 -->
+            <h6>以下是绿圈校园近期版本的下载.</h6>
+        </div>
+
+        <!-- 具体内容 -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <div class="best-value">
+                    <div class="package">
+                        <div class="package-header red-bg">
+                            <h4>V2.3</h4>
+                            <div class="meta-text">
+                                最新版本
+                            </div>
+                        </div>
+                        <div class="price dark-bg">
+                            <h4>5.3M</h4>
+                        </div>
+                        <ul>
+                            <li>时间：2016-10-20</li>
+                            <li>简介：一个新的绿圈校园</li>
+                            <li>简介：后台更新</li>
+                            <li>简介：前台简介</li>
+                            <li class="xhb"
+                                contact-data="一个全新的绿圈校园<br / >老用户无法从后台升级<br / >很抱歉 这是我的过失<br / >为了弥补老用户<br / >你可以把你的网站信息给我<br / >我会一条一条的把文章加到你新的版本<br / >真诚的致歉<br / >下载地址：http://www.wandoujia.com/apps/com.seeknovel.android.lq"
+                                contact-title="主题简介">
+                                <a href="javascript:void(0)" class="btn btn-primary">查看更多介绍</a>
+                            </li>
+                        </ul>
+                        <a href=http://www.wandoujia.com/apps/com.seeknovel.android.lq" class="btn btn-primary custom-button red-btn"
+                           target="_blank">下载</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="package">
+                    <div class="package-header yellow-bg">
+                        <h5>V2.2</h5>
+                    </div>
+                    <div class="price dark-bg">
+                        <h4>16.3M</h4>
+                    </div>
+                    <ul>
+                        <li>时间：2016-09-19</li>
+                        <li>简介：关闭DEBUG</li>
+                        <li>简介：支持自定义404错误页面</li>
+                        <li>简介：增加主题切换</li>
+                        <li class="xhb"
+                            contact-data="1.关闭DEBUG 不会再报出错误信息 也不会在有SQL注入<br />2.支持自定义404错误页面 \Application\Common\Conf\config.php ERROR_PAGE属性是自定义404页面地址<br />3.前台以及后台登陆所有变量参数全部改用I函数过滤<br />4.后台管理增加ICP备案号管理<br />5.页面底部管理员邮件点击改成A连接<br />6.删除文章的时候连评论一起删除<br />7.增加文章置顶功能<br />8.修改评论数量查询方式<br />9.增加评论管理<br />10.去掉心情样式和电影样式<br />11.固定左侧导航栏<br />12.修改评论顺序<br />13.增加主题切换<br />14.增加文章分享功能<br />15.幻灯片里面的图片随着分辨率拉伸填充<br />16.增加分类排序<br />17.更换编辑器<br />18.发表文章图片不再必选（默认图片位置在：\Public\Uploads\thumb.jpg）<br />19.文章加密（输入密码之后才可查看）<br />20.会员中心独立出来<br />下载地址：http://www.wandoujia.com/apps/com.seeknovel.android.lq"
+                            contact-title="主题简介">
+                            <a href="javascript:void(0)" class="btn btn-primary">查看更多介绍</a></li>
+                    </ul>
+                    <a href="http://www.wandoujia.com/apps/com.seeknovel.android.lq" class="btn btn-primary custom-button red-btn"
+                       target="_blank">下载</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="package">
+                    <div class="package-header blue-bg">
+                        <h5>V2.1</h5>
+                    </div>
+                    <div class="price dark-bg">
+                        <h4>18.1M</h4>
+                    </div>
+                    <ul>
+                        <li>时间：2016-09-19</li>
+                        <li>简介：修复后台无法管理网站</li>
+                        <li>简介：修复发布文章有时会报错</li>
+                        <li>简介：修复添加邀请码报错BUG</li>
+                        <li class="xhb"
+                            contact-data="5.5号<br />每次都赶到这个日子，看了一下前几次更新 好像都是这个日期<br />真的变成一个月已更新了 废话不多说了<br />以下是这个版本更新的内容：<br />1.修复后台无法管理网站<br />2.修复发布文章有时会报错<br />3.修复添加邀请码报错BUG<br />4.修复搜索BUG<br />5.增加极验验证<br />6.加快页面加载速度<br />7.修复左侧导航栏不固定<br />8.增加会员中心文章搜索功能<br />数据库修改：<br />ALTER TABLE `blog_article` DROP `type` （删除多余字段）<br />官网网址： http://www.lcm.wang/<br />交流群群号： 132020914<br />绿圈校园V2.1完整包下载地址：链接: http://www.wandoujia.com/apps/com.seeknovel.android.lq"
+                            contact-title="主题简介">
+                            <a href="javascript:void(0)" class="btn btn-primary">查看更多介绍</a></li>
+                    </ul>
+                    <a href="http://www.wandoujia.com/apps/com.seeknovel.android.lq" class="btn btn-primary custom-button red-btn"
+                       target="_blank">下载</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="package">
+                    <div class="package-header green-bg">
+                        <h5>V2.0</h5>
+                    </div>
+                    <div class="price dark-bg">
+                        <h4>18M</h4>
+                    </div>
+                    <ul>
+                        <li>时间：2016-09-19</li>
+                        <li>简介：友情链接公告修改</li>
+                        <li>简介：增加返回顶部</li>
+                        <li>简介：留言板增加验证码</li>
+                        <li class="xhb"
+                            contact-data="本次版本内容更新如下：<br / >1.友情链接公告修改 <br / >2.进入作者主页后点击回到绿圈校园 跳入的是官网<br / >3.增加返回顶部<br / >4.留言板增加验证码<br / >6.修复分页BUG<br / >7.跳转样式修改<br / >8.增加留言批量删除<br / >9.清理缓存抛出异常抱错<br / >10.增加在线升级<br / >11.修复注册失败BUG<br / >12.修复安装失败BUG<br / >13.增加多URL访问模式 支持nginx<br / >数据库具体修改：<br / >ALTER TABLE `blog_site` ADD `code` TEXT NOT NULL COMMENT '邀请码说明',<br / >ADD `friend_link` TEXT NOT NULL COMMENT '友情链接说明'<br / > 官网网址： http://www.lcm.wang/<br / >    交流群群号： 132020914<br / >下载链接：链接: http://www.wandoujia.com/apps/com.seeknovel.android.lq<br / >"
+                            contact-title="主题简介">
+                            <a href="javascript:void(0)" class="btn btn-primary">查看更多介绍</a>
+                        </li>
+                    </ul>
+                    <a href="http://www.wandoujia.com/apps/com.seeknovel.android.lq" class="btn btn-primary custom-button red-btn"
+                       target="_blank">下载</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--主题开发-->
+<section class="features" id="features">
+    <div class="container">
+        <!-- 页头-->
+        <div class="section-header">
+            <!-- 标题 -->
+            <h2 class="dark-text">加入我们</h2>
+            <!-- 描述 -->
+            <h6>绿圈校园是一个校园交流平台，我希望有更多的人和我们一起加入我们.</h6>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 ">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="icon-heart"></i>
+                    </div>
+                    <h5>懂技术</h5>
+                    <p>
+                        掌握PHP语言，掌握THINKPHP框架，能够熟练应用Linux操作系统，了解Apache、nginx工作原理，良好的数据库知识.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="icon-bullhorn"></i>
+                    </div>
+                    <h5>有脑子</h5>
+                    <p>
+                        能想到如何设计模板主题更为合理，并且可以发现绿圈校园程序的不足，提出来进行改正.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="icon-gear"></i>
+                    </div>
+                    <h5>责任心</h5>
+                    <p>
+                        如果你愿意参加开源程序的开发，就不要半途而废，有些事不是看到希望才坚持，而是坚持了才能看到希望.
+                    </p>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 ">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="icon-paste"></i>
+                    </div>
+                    <h5>有逼格</h5>
+                    <p>对于每件事有自己独立的看法，不随波逐流，这样你设计出来的主题才能做小众里的大众.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="icon-vk"></i>
+                    </div>
+                    <h5>有审美</h5>
+                    <p>
+                        懂得色彩搭配，网站布局，模块合理性的摆放，说白了，就是不要太傻.
+                    </p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="icon-user"></i>
+                    </div>
+                    <h5>有耐心</h5>
+                    <p>
+                        众口难调，自己做出来的菜一定有人说好吃，有人说不好吃，不要一味的与给你意见的人对喷，没有意义 .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--过渡层-->
+<div class="color-overlay" id="products" style="background: rgba(39,144,176, 0.96);color:#fff;">
+    <div class="container">
+        <!-- 页头 -->
+        <div class="section-header">
+            <!-- 标题-->
+            <h2 class="white-text">主题</h2>
+            <!-- 概述 -->
+            <h6 class="white-text">这里展示了绿圈校园至今为止所有的主题 供大家下载和观赏.</h6>
+        </div>
+        <div class="row ">
+            <div class="col-md-3">
+                <div class="item" style="background-image: url(image/uploads/thumb_1.jpg)">
+                    <div class="item-content">
+                        <div class="item-top-content">
+                            <div class="item-top-content-inner">
+                                <div class="item-product">
+                                    <div class="item-top-title">
+                                        <h5>白蓝地</h5>
+                                        <p class="subdescription">2016-09-19 16:55:31</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-add-content">
+                            <div class="item-add-content-inner">
+                                <div class="section"><p style="color:#aaa">作者：绿圈校园</p></div>
+                                <div class="section">
+                                    <a href=#" class="btn btn-primary custom-button red-btn" target="_blank">演示</a><br>
+                                    <a href="#" class="btn btn-primary custom-button green-btn" target="_blank">下载</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--过渡层-->
+<section class="color-overlay" style="background: rgba(0, 0, 0, 0.5);color:#fff;">
+    <div class="container">
+        <h3>不想下载？</h3>
+        <div>如果您不想下载可以在下方输入您的邮箱，系统会将最新的APP发送给您.</div>
+        <form style="margin-top: 15px">
+            <input placeholder="输入邮箱" class="form-control input-box" type="email" style="width: 274px">
+            <button class="btn btn-primary custom-button red-btn">发送</button>
+        </form>
+    </div>
+</section>
+<!--评价-->
+<section class="testimonial" id="testimonials">
+    <div class="container">
+        <!-- 页头-->
+        <div class="section-header" style="color:#fff">
+            <!-- 标题 -->
+            <h2>评价</h2>
+            <!-- 概述 -->
+            <h6>以下内容来自于绿圈校园用户对于本平台的评价.</h6>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="feedback">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4 feedback-item" >
+                            <div class="feedback-box">
+                                <div class="message">
+                                    “小弟从0.9版本用绿圈校园到如今，也就是从小白到脱离小白的过程中体验到很多乐趣！
+                                    下面我要发表我内心的感言！
+                                    首先我要感谢绿圈校园的管理员与群主（作者）的悉心教导，不仅在群里学习到了技术还学到了如何装一手好逼！
+                                    绿圈校园是绝逼是一个非常强大灵活易操作交流平台，简单易懂！还能无时无刻的和群里的小伙伴一起的讨论技术和如何装一手好逼！
+                                    小弟从小不爱说话，自从用了绿圈校园以后我认识了许多小伙伴，从一个不爱说话的小伙子脱变成一个无言不欢的小伙子！
+                                    看资讯用绿圈校园,无时无刻愉快的装逼！自从用了绿圈校园，人也长高了，也变帅了，吃啥都有胃口了，也找着女朋友了。”
+                                </div>
+
+                                <!-- CLIENT INFORMATION -->
+                                <div class="client">
+                                    <div class="quote red-text">
+                                        <i class="icon-quote-left"></i>
+                                    </div>
+                                    <div class="client-info">
+                                        <a class="client-name" href="">张三</a>
+                                        <div class="client-company">
+                                            web前端工程师
+                                        </div>
+                                    </div>
+                                    <div class="client-image hidden-xs">
+                                        <img src="image/uploads/57e17be3f073d.png" alt="" width="70px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 feedback-item">
+                            <div class="feedback-box">
+                                <div class="message">
+                                    “绿圈校园平台我也用了四个多月了！真的特别喜欢。后台简洁易操作，而且有大神的风范。让我用着不知不知觉感觉自己不再是小白了！onlystar
+                                    人很好，不懂得地方都是问他的。他都会耐心解答（一般都说“问管理”）onlystar真的是很不错的人，反正推荐大家一定要试下这个APP，不然真的后悔。”
+                                </div>
+                                <div class="client">
+                                    <div class="quote red-text">
+                                        <i class="icon-quote-left"></i>
+                                    </div>
+                                    <div class="client-info">
+                                        <a class="client-name" href="">onlystar</a>
+                                        <div class="client-company">
+                                            全栈工程师
+                                        </div>
+                                    </div>
+                                    <div class="client-image hidden-xs">
+                                        <img src="image/uploads/57ded2a658813.jpg" alt="" width="70px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 feedback-item">
+                            <div class="feedback-box">
+                                <div class="message">
+                                    “我是个拥有梦想技术小白，但是网络坑太多，别人分享的源码都是残次品，完整的都要收费！于是我在网络中学习，搜索百度，浏览分享网站等，终于我找到了我想要的绿圈校园平台，APP界面非常美观，最主要的的事:作者非常帅。于是我快速下载体验了一番，心里的酸爽！不过还是有点缺陷，我相信作者君会好好完善的！加油儿绿圈校园！”
+                                </div>
+                                <div class="client">
+                                    <div class="quote red-text">
+                                        <i class="icon-quote-left"></i>
+                                    </div>
+                                    <div class="client-info">
+                                        <a class="client-name" href="">极客</a>
+                                        <div class="client-company">
+                                            高智商大学生
+                                        </div>
+                                    </div>
+                                    <div class="client-image hidden-xs">
+                                        <img src="image/uploads/57decb9a8edd0.jpg" alt="" width="70px">
+                                    </div>
+                                </div> <!-- / END CLIENT INFORMATION-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-control" style="display: block;">
+                        <div class="owl-pagination">
+                            <div class="owl-page active"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                            <div class="owl-page"><span class=""></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--联系我们-->
+<section class="contact" id="contact">
+    <div class="container">
+        <!-- 页头-->
+        <div class="section-header">
+            <!-- 标题-->
+            <h2 class="white-text">与我联系</h2>
+            <!--描述-->
+            <h6 class="white-text">如果您有其他的问题请在下方提交留言与我联系（APP使用类问题请加交流群或看文档)</h6>
+        </div>
+
+        <!--表单-->
+        <div class="container">
+            <form role="form" class="contact-form" method="post">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <input name="name" placeholder="你的名字" class="form-control" id="name" type="text">
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <input name="email" placeholder="你的邮件" class="form-control" id="email" type="email">
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <input name="subject" placeholder="主题" class="form-control" id="subject" type="text">
+                    </div>
+                    <div class="col-xs-12" style="margin-top: 15px">
+                        <textarea class="form-control textarea-box" name="message"
+                                  placeholder="留言内容..."></textarea>
+                    </div>
+                </div>
+                <!-- 成功信息 -->
+                <h4 class="hide pull-left white-text">你已经成功发送邮件</h4>
+                <!-- 失败信息-->
+                <h4 class="hide pull-left white-text">您必须输入一个正确的邮件地址.</h4>
+                <button class="pull-right btn btn-primary custom-button red-btn" type="submit">提交留言</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--页脚-->
+<footer class="footer">
+    <div class="container">
+
+        <div class="col-md-5 company-details">
+            <div class="icon-top red-text">
+                <i class="icon-location-arrow"></i>
+            </div>
+            <p> 武汉市某一个电脑面前</p>
+        </div>
+
+        <div class="col-md-2 company-details">
+            <div class="icon-top green-text">
+                <i class="icon-envelope"></i>
+            </div>
+            <p>991923257@qq.com</p>
+        </div>
+
+        <div class="col-md-2 company-details">
+            <div class="icon-top blue-text">
+                <i class="icon-phone"></i>
+            </div>
+            <p>13593756154</p>
+        </div>
+
+        <div class="col-lg-3 col-sm-3 copyright">
+            <ul class="social">
+                <li><a href=""><i class="icon-weibo"></i></a></li>
+                <li><a href=""><i class="icon-qq"></i></a></li>
+                <li><a href=""><i class="icon-wechat"></i></a></li>
+            </ul>
+            ©2014-2017  onlystar
+        </div>
+    </div>
+</footer>
+
+
+<!--模态框-->
+<div class="modal fade" id="myModal" style="display: none">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span>×</span><span
+                        class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-vegas.js"></script>
+<script src="js/lcm.js"></script>
+<!--<script>
+    (function () {
+        var s = document.createElement("script");
+        s.onload = function () {
+            bootlint.showLintReportForCurrentDocument([]);
+        };
+        s.src = "js/bootlint.js";
+        document.body.appendChild(s)
+    })();
+</script>-->
+</body>
+</html>
